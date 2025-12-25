@@ -44,3 +44,19 @@ void shfaqStudentet() {
             << " | Nota: " << s.notaMesatare << endl;
     }
 }
+void kerkoStudent() {
+    int id;
+    cout << "\nShkruaj ID e studentit: ";
+    cin >> id;
+
+    for (const auto& s : studentet) {
+        if (s.id == id) {
+            cout << "\nStudenti u gjet:\n";
+            cout << "Emri: " << s.emri << endl;
+            cout << "Drejtimi: " << s.drejtimi << endl;
+            cout << "Nota: " << s.notaMesatare << endl;
+            return;
+        }
+    }
+    cout << "\nStudenti nuk u gjet.\n";
+}
