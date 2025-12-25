@@ -30,3 +30,17 @@ void shtoStudent() {
     studentet.push_back(s);
     cout << "\nStudenti u shtua me sukses!\n";
 }
+void shfaqStudentet() {
+    if (studentet.empty()) {
+        cout << "\nNuk ka studente te regjistruar.\n";
+        return;
+    }
+
+    cout << "\n--- Lista e Studenteve ---\n";
+    for (const auto& s : studentet) {
+        cout << "ID: " << s.id
+            << " | Emri: " << s.emri
+            << " | Drejtimi: " << s.drejtimi
+            << " | Nota: " << s.notaMesatare << endl;
+    }
+}
