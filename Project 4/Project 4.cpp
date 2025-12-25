@@ -60,3 +60,17 @@ void kerkoStudent() {
     }
     cout << "\nStudenti nuk u gjet.\n";
 }
+void fshiStudent() {
+    int id;
+    cout << "\nShkruaj ID e studentit per fshirje: ";
+    cin >> id;
+
+    for (auto it = studentet.begin(); it != studentet.end(); ++it) {
+        if (it->id == id) {
+            studentet.erase(it);
+            cout << "\nStudenti u fshi me sukses!\n";
+            return;
+        }
+    }
+    cout << "\nStudenti nuk u gjet.\n";
+}
