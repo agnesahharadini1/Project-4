@@ -104,8 +104,11 @@ int main() {
             cout << "\nDuke dalur nga programi...\n";
             break;
        
+        default:
+            cout << "\nZgjedhje e pavlefshme!\n";
+        }
 
-    } 
+    } while (zgjedhja != 0);
 
     return 0;
 }
