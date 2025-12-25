@@ -74,3 +74,38 @@ void fshiStudent() {
     }
     cout << "\nStudenti nuk u gjet.\n";
 }
+int main() {
+    int zgjedhja;
+
+    do {
+        cout << "\n===== MENAXHIMI I STUDENTEVE =====\n";
+        cout << "1. Shto Student\n";
+        cout << "2. Shfaq Studentet\n";
+        cout << "3. Kerko Student\n";
+        cout << "4. Fshi Student\n";
+        cout << "0. Dil\n";
+        cout << "Zgjedhja: ";
+        cin >> zgjedhja;
+
+        switch (zgjedhja) {
+        case 1:
+            shtoStudent();
+            break;
+        case 2:
+            shfaqStudentet();
+            break;
+        case 3:
+            kerkoStudent();
+            break;
+        case 4:
+            fshiStudent();
+            break;
+        case 0:
+            cout << "\nDuke dalur nga programi...\n";
+            break;
+       
+
+    } 
+
+    return 0;
+}
