@@ -9,9 +9,9 @@ Shikoje listen e studenteve te regjistruar
 
 Kerkojë studente sipas ID
 
-Fshije studente te caktuar
+Fshij studente te caktuar
 
-Dile nga programi
+Te dal nga programi
 
 Kodi perdor struct, vector, dhe funksione te ndara per çdo veçori, duke e bere programin te qarte dhe te organizuar.
 
