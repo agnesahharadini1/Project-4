@@ -19,8 +19,8 @@ Keshtu shfaqet ne fillim programi
 <img width="592" height="307" alt="image" src="https://github.com/user-attachments/assets/740d4b61-75b4-4053-8123-716fc8fc2d40" />
 
 Zgjedhje 1
-<img width="833" height="636" alt="image" src="https://github.com/user-attachments/assets/896b5717-6fe4-4bf7-8251-ab96fc7e920f" 
-  />
+<img width="833" height="636" alt="image" src="https://github.com/user-attachments/assets/896b5717-6fe4-4bf7-8251-ab96fc7e920f" />
+  /n
   Zgjedhja 2
   <img width="891" height="742" alt="image" src="https://github.com/user-attachments/assets/9f70f0e6-c49c-402e-bc2c-875933014d1a" />
   Zgjedhja 3
